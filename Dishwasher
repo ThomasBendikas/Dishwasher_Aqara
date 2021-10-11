@@ -12,7 +12,7 @@ by LUMI vibration sensor). Needs to have device_class:
       selector:
         entity:
           domain: binary_sensor
-          device_class: vibration
+          device_class: vibration_sensor
     starting_hysteresis:
       name: Starting hysteresis
       description: Time duration the sensor has to stay on.
